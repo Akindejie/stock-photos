@@ -22,6 +22,7 @@ function App() {
   const [query, setQuery] = useState('');
   const mounted = useRef(false);
   const [newImages, setNewImages] = useState(false);
+
   const fetchImages = async () => {
     setLoading(true);
     let url;
